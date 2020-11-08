@@ -145,7 +145,7 @@ export default {
 	},
 	methods: {
 		changeTab(index) {
-			console.log('当前选中的项：' + index);
+			console.log('当前选中的项——1：' + index);
 			this.couponList = []
 			uni.showLoading({
 			    title: '获取优惠中'
