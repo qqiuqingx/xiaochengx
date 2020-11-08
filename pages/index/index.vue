@@ -30,17 +30,17 @@ export default {
 					icon: '/static/all.png',
 					text: '全部',
 					tabId: 0,
+				},
+				{
+					icon: '/static/ele.png',
+					text: '饿了么',
+					tabId: 1,
+				},
+				{
+					icon: '/static/meituan.png',
+					text: '美团',
+					tabId: 2,
 				}
-				// {
-				// 	icon: '/static/ele.png',
-				// 	text: '饿了么',
-				// 	tabId: 1,
-				// },
-				// {
-				// 	icon: '/static/meituan.png',
-				// 	text: '美团',
-				// 	tabId: 2,
-				// },
 				// {
 				// 	icon: '/static/11.png',
 				// 	text: '双十一',
@@ -69,7 +69,19 @@ export default {
 					minapp: {
 						appid: 'wxece3a9a4c82f58c9',
 						// path: 'pages/sharePid/web/index?scene=https://s.click.ele.me/wR9ecuu'
-						 path: 'pages/sharePid/web/index?scene=https://s.click.ele.me%2FAf4gvvu'
+						 path: 'pages/sharePid/web/index?scene=s.click.ele.me%2FiaQ0Vuu'
+					}
+				},
+				{
+					name: '饿了么果蔬',
+					icon: '/static/coupon/ele.png',
+					bannerPic: '/static/coupon/ele_guosu.png',
+					url:'https://s.click.ele.me/RpRFhvu',
+					type: 1,
+					tabId: 1,
+					minapp: {
+						appid: 'wxece3a9a4c82f58c9',
+						path: 'pages/sharePid/web/index?scene=s.click.ele.me%2FTSfyUuu'
 					}
 				},
 				{
@@ -82,7 +94,19 @@ export default {
 					minapp: {
 						appid: 'wxde8ac0a21135c07d',
 						path: '/index/pages/h5/h5?weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fshare_coupon%3FutmSource%3D45062%26utmMedium%3D0C893A712E02E0ABAA6C3B231E302ABD%26activity%3DOwMkGzn6oK'
-					}}	
+					}},
+					{
+						name: '美团生鲜',
+						icon: '/static/coupon/meituan.png',
+						bannerPic: '/static/coupon/20201108190015.png',
+						url:'https://s.click.ele.me/RpRFhvu',
+						type: 1,
+						tabId: 2,
+						minapp: {
+							appid: 'wxde8ac0a21135c07d',
+							path: '/index/pages/h5/h5?weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fshare_coupon%3FutmSource%3D45062%26utmMedium%3D0C893A712E02E0ABAA6C3B231E302ABD%26activity%3DLj7hGmmCBO'
+						}
+					},
 				// },
 				// {
 				// 	name: '爱奇艺会员',
