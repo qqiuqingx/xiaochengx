@@ -18,6 +18,7 @@
 			</view>
 		</view>
 	</view>
+
 </template>
 
 <script>
@@ -31,16 +32,16 @@ export default {
 					text: '全部',
 					tabId: 0,
 				},
-				{
-					icon: '/static/ele.png',
-					text: '饿了么',
-					tabId: 1,
-				},
-				{
-					icon: '/static/meituan.png',
-					text: '美团',
-					tabId: 2,
-				}
+				// {
+				// 	icon: '/static/ele.png',
+				// 	text: '饿了么',
+				// 	tabId: 1,
+				// },
+				// {
+				// 	icon: '/static/meituan.png',
+				// 	text: '美团',
+				// 	tabId: 2,
+				// }
 				// {
 				// 	icon: '/static/11.png',
 				// 	text: '双十一',
@@ -69,7 +70,7 @@ export default {
 					minapp: {
 						appid: 'wxece3a9a4c82f58c9',
 						// path: 'pages/sharePid/web/index?scene=https://s.click.ele.me/wR9ecuu'
-						 path: 'pages/sharePid/web/index?scene=s.click.ele.me%2FiaQ0Vuu'
+						 path: 'pages/sharePid/web/index?scene=s.click.ele.me%2F2pqTEuu'
 					}
 				},
 				{
@@ -88,25 +89,26 @@ export default {
 					name: '美团外卖红包',
 					icon: '/static/coupon/meituan.png',
 					bannerPic: '/static/coupon/meituan_banner.png',
-					url:'https://runion.meituan.com/url?key=cd23768d09c339d1641b2738df39aa67&url=https%3A%2F%2Fi.meituan.com%2Fawp%2Fhfe%2Fblock%2Fa945391288b790d558b7%2F78716%2Findex.html%3Fappkey%3Dcd23768d09c339d1641b2738df39aa67%3Ajuhe&sid=juhe',
+					url:'https%3A%2F%2Frunion.meituan.com%2Furl%3Fkey%3D004dc473bbeeeb1a329035aa769645b1%26url%3Dhttps%253A%252F%252Fi.meituan.com%252Fawp%252Fhfe%252Fblock%252Fa945391288b790d558b7%252F78716%252Findex.html%253Fappkey%253D004dc473bbeeeb1a329035aa769645b1%253A00940904%26sid%3D00940904&f_token=1&f_userId=1',
 					type: 1,
 					tabId: 2,
 					minapp: {
 						appid: 'wxde8ac0a21135c07d',
-						path: '/index/pages/h5/h5?weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fshare_coupon%3FutmSource%3D45062%26utmMedium%3D0C893A712E02E0ABAA6C3B231E302ABD%26activity%3DOwMkGzn6oK'
+						//path: '/index/pages/h5/h5?weburl=https%3A%2F%2Frunion.meituan.com%2Furl%3Fkey%3D004dc473bbeeeb1a329035aa769645b1%26url%3Dhttps%3A%2F%2Fi.meituan.com%2Fawp%2Fhfe%2Fblock%2Fa945391288b790d558b7%2F78716%2Findex.html%3F%0Aappkey%3D004dc473bbeeeb1a329035aa769645b1%26sid%3D000940904%26f_token%3D1%26f_userId%3D1'
+						path: '/index/pages/h5/h5?lch=mhqIykekFEV63u81zLSTaQViQ&noshare=1&f_userId=0&f_openId=0&f_token=1&weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fshare_coupon%3FutmSource%3D56020%26utmMedium%3D3D52DEF4438AE63F0FBF09E13E5B1B8E%26promotionId%3D22073%26activity%3DOwMkGzn6oK'
 					}},
-					{
-						name: '美团生鲜',
-						icon: '/static/coupon/meituan.png',
-						bannerPic: '/static/coupon/20201108190015.png',
-						url:'https://s.click.ele.me/RpRFhvu',
-						type: 1,
-						tabId: 2,
-						minapp: {
-							appid: 'wxde8ac0a21135c07d',
-							path: '/index/pages/h5/h5?weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fshare_coupon%3FutmSource%3D45062%26utmMedium%3D0C893A712E02E0ABAA6C3B231E302ABD%26activity%3DLj7hGmmCBO'
-						}
-					},
+					// {
+					// 	name: '美团生鲜',
+					// 	icon: '/static/coupon/meituan.png',
+					// 	bannerPic: '/static/coupon/20201108190015.png',
+					// 	url:'https://act.meituan.com/clover/page/adunioncps/share_coupon?utmSource=56020&utmMedium=3D52DEF4438AE63F0FBF09E13E5B1B8E&promotionId=22073&activity=Lj7hGmmCBO',
+					// 	type: 0,
+					// 	tabId: 3,
+					// 	// minapp: {
+					// 	// 	appid: 'wxde8ac0a21135c07d',
+					// 	// 	path: '/index/pages/h5/h5?weburl=mhqIykekFEV63u81zLSTaQViQ&noshare=1&f_userId=0&f_openId=0&f_token=1&weburl=https%3A%2F%2Fact.meituan.com%2Fclover%2Fpage%2Fadunioncps%2Fshare_coupon%3FutmSource%3D56020%26utmMedium%3D3D52DEF4438AE63F0FBF09E13E5B1B8E%26promotionId%3D22073%26activity%3DOwMkGzn6oK'
+					// 	// }
+					// },
 				// },
 				// {
 				// 	name: '爱奇艺会员',
@@ -201,6 +203,7 @@ export default {
 			//微信小程序
 			//#ifdef MP-WEIXIN
 			if(this.couponList[i].minapp){
+				console.log("进入小程序判断")
 				wx.navigateToMiniProgram({
 				  appId: this.couponList[i].minapp.appid,
 				  path: this.couponList[i].minapp.path,
@@ -277,7 +280,6 @@ page {
 						border-radius: 6rpx;
 					}
 				}
-
 				.right {
 					width: 170rpx;
 					height: 60rpx;
@@ -289,7 +291,6 @@ page {
 					text-align: center;
 				}
 			}
-
 			.bottom {
 				height: auto;
 				width: 100%;
